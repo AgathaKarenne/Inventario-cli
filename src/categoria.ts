@@ -5,6 +5,6 @@ export interface Categoria {
   nome: string;
   descricao: string;
   dataCriacao: Date;
-  dataAtualizacao?: Date;
+  dataAtualizacao?: Date; // funcionalidade opcional
   tipo: TipoCategoria;
 }
